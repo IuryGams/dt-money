@@ -11,7 +11,7 @@ O **DT Money** é uma aplicação web de gestão financeira desenvolvida com foc
 - **Resumo Financeiro:** Oferece uma visão detalhada das finanças, auxiliando no acompanhamento de receitas e despesas.
 - **Tabela de Transações:** Apresenta uma tabela paginada com recursos avançados de filtragem para facilitar a análise de dados.
 
-## Tecnologias Utilizadas 🛠️![image](https://github.com/user-attachments/assets/9b4f059b-ba71-4292-971f-8d417388309f)
+## Tecnologias Utilizadas 🛠️
 
 
 ### Frontend:
@@ -24,7 +24,7 @@ O **DT Money** é uma aplicação web de gestão financeira desenvolvida com foc
 - **Radix UI:** Conjunto de componentes acessíveis para React.
 - **Axios:** Biblioteca para realizar requisições HTTP.
 
-### Backend:![image](https://github.com/user-attachments/assets/c5019ffe-469e-4fb7-b902-f2c1b16840ee)
+### Backend:
 
 - **JSON Server:** Utilizado para simular uma API RESTful durante o desenvolvimento, permitindo a criação, leitura, atualização e exclusão de dados de forma rápida e sem a necessidade de um backend real.
 
@@ -35,7 +35,7 @@ O **DT Money** é uma aplicação web de gestão financeira desenvolvida com foc
    git clone https://github.com/seu-usuario/dt-money.git
 
    // Navegue até o diretório do projeto:
-   cd timer-SPA-project
+   cd dt-money
 
    // Instale as dependências:
    npm install
