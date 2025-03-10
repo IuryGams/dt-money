@@ -43,4 +43,22 @@ O **DT Money** é uma aplicação web de gestão financeira desenvolvida com foc
    // Inicie o servidor de desenvolvimento:
    npm run dev
   ```
+
+## Scripts Disponíveis 📝
+```bash
+npm run dev: Inicia o servidor de desenvolvimento usando o Vite. A aplicação estará disponível em http://localhost:3000.
+
+npm run dev:server: Inicia o JSON Server com o arquivo server.json, servindo dados mockados para o backend da aplicação.
+
+npm run build: Compila o TypeScript e gera a build de produção usando o Vite.
+
+npm run lint: Executa o ESLint para verificar o código da aplicação em busca de erros de estilo e qualidade.
+
+npm run lint:fix: Executa o ESLint e tenta corrigir automaticamente os erros de estilo e qualidade.
+
+npm run preview: Visualiza a versão de produção da aplicação gerada pelo Vite.
+
+npm run tsc: Executa o TypeScript sem emitir nenhum arquivo, apenas para verificar a consistência dos tipos.
+
+```
    
