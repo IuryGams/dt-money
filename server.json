@@ -1,0 +1,44 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2025-03-10T14:01:32.308Z"
+    },
+    {
+      "id": 2,
+      "description": "Hamburguer",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 50,
+      "createdAt": "2025-07-10T14:01:32.308Z"
+    },
+    {
+      "id": 3,
+      "description": "Alura",
+      "type": "outcome",
+      "category": "Educação",
+      "price": 1000.25,
+      "createdAt": "2022-10-10T14:01:32.308Z"
+    },
+    {
+      "description": "Compra de tênis",
+      "price": 180,
+      "category": "Moda",
+      "type": "outcome",
+      "createdAt": "2025-03-10T17:52:15.290Z",
+      "id": 4
+    },
+    {
+      "description": "Venda de APP",
+      "price": 500,
+      "category": "Desenvolvimento",
+      "type": "income",
+      "createdAt": "2025-03-10T18:09:07.437Z",
+      "id": 5
+    }
+  ]
+}
