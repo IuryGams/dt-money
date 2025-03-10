@@ -1,54 +1,46 @@
-# React + TypeScript + Vite
+# DT Money 💰
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Transactions_Page](/public/page_transactions.png)
 
-Currently, two official plugins are available:
+O **DT Money** é uma aplicação web de gestão financeira desenvolvida com foco em eficiência, usabilidade e desempenho. Utilizando tecnologias modernas como **React**, **TypeScript**, **Vite**, **Styled-Components**, **Zod**, **React Hook Form**, **Radix UI**, **Axios** e **JSON Server**, a aplicação oferece uma interface responsiva e funcionalidades robustas para o gerenciamento de finanças pessoais.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades 🚀
 
-## Expanding the ESLint configuration
+- **Interface Responsiva:** Proporciona uma experiência de usuário otimizada em dispositivos móveis e desktops.
+- **Gestão de Transações:** Permite adicionar, remover e editar transações financeiras com facilidade.
+- **Resumo Financeiro:** Oferece uma visão detalhada das finanças, auxiliando no acompanhamento de receitas e despesas.
+- **Tabela de Transações:** Apresenta uma tabela paginada com recursos avançados de filtragem para facilitar a análise de dados.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Tecnologias Utilizadas 🛠️![image](https://github.com/user-attachments/assets/9b4f059b-ba71-4292-971f-8d417388309f)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Frontend:
+- **React:** Biblioteca para construção de interfaces de usuário.
+- **TypeScript:** Superset do JavaScript que adiciona tipagem estática.
+- **Vite:** Ferramenta de build que proporciona um ambiente de desenvolvimento rápido.
+- **Styled-Components:** Biblioteca para estilização de componentes com CSS-in-JS.
+- **Zod:** Biblioteca para validação de esquemas de dados.
+- **React Hook Form:** Biblioteca para gerenciamento de formulários.
+- **Radix UI:** Conjunto de componentes acessíveis para React.
+- **Axios:** Biblioteca para realizar requisições HTTP.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Backend:![image](https://github.com/user-attachments/assets/c5019ffe-469e-4fb7-b902-f2c1b16840ee)
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- **JSON Server:** Utilizado para simular uma API RESTful durante o desenvolvimento, permitindo a criação, leitura, atualização e exclusão de dados de forma rápida e sem a necessidade de um backend real.
+
+## Instalação e Configuração ⚙️
+
+   ```bash
+    // Clone o projeto:
+   git clone https://github.com/seu-usuario/dt-money.git
+
+   // Navegue até o diretório do projeto:
+   cd timer-SPA-project
+
+   // Instale as dependências:
+   npm install
+
+   // Inicie o servidor de desenvolvimento:
+   npm run dev
+  ```
+   
